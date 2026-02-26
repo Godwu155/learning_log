@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ro%j740x90qd%w^cyc^e-k+y=gwx#o5c_0kmv#va4pp2sz29q0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -126,3 +126,5 @@ STATIC_URL = 'static/'
 LOGIN_REDIRECT_URL = 'learning_logs:index'
 LOGOUT_REDIRECT_URL = 'learning_logs:index'
 LOGIN_URL = 'accounts:login'
+
+# 允许任何网址访问你的 Django 网站
